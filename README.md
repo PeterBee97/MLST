@@ -1,2 +1,2 @@
 # MLST
-An implementation of "Approximating Maximum Leaf Spanning Trees in Almost Linear Time"
+An implementation of 3-approximation Maximum Leaf Spanning Trees algorithm
