@@ -199,7 +199,7 @@ bool* MLST(int **A, int n)
 	//	printf("%d %d\n",t.u+1,t.v+1);
 	//}
 
-    for (int i = 0; i < n; i++) if (d[i]>1) Relay[i] = 1;
+    for (i = 0; i < n; i++) if (d[i]>1) Relay[i] = 1;
     UFSet_DeInit(&S);
     Stack_DeInit(&F);
     Stack_Int_DeInit(&S_prime);
